@@ -4,7 +4,7 @@
 \usepackage[slovak]{babel}
 \usepackage{pdfpages}
 \linespread{1.0} 
-
+\renewcommand{\arraystretch}{1.5}
 \author{Mykyta Fedorin}
 \title{BikeXpress}
 \date{}
@@ -24,6 +24,8 @@ mok, pomocou ktorého je uzamknuty každý z bicyklov v danej stanici. Systém m
 zákazníkom používať platené služby pozicania bicyklov firmy BikeXpress. Služby budú pozostávať
 z plateného pozicania bicykla, s cieľom pomôcť zákazníkovi sa dostať tam, kde potrebuje a vrátiť
 bicykel naspäť do bližšej stanice.
+
+Hlavný scenár použitia servisu:
 
 Systém je rozdelený na dve funkčné časti. Prvá časť je určená pre majiteľa (správcu) služby bike
 sharing a druhá pre ľudí (zákazníkov), ktorí chcú využívať bicykle správcu na vlastnú prepravu po
@@ -115,9 +117,9 @@ Administratorske konto je určené pre majiteľa prevádzky a musí spĺňať na
         a upozorniť používateľa v prípade zle zadanej adresy. Heslo musí obsahovať minimálne 8 
         znakov, minimálne jedno veľké písmeno, minimálne jeden špeciálny znak.
 
-    \item Zobrazenie historie platieb
+    \item Zobrazenie historie platieb\\
         Ide o zoznam platieb z informaciami o učte z ktoreho prešla platba, datume a vyške poplatku.
-    \item Zobrazenie štatistiky použivania bicyklov
+    \item Zobrazenie štatistiky použivania bicyklov\\
         To sú informácie o počte prejdenych kilometrov a dĺžke používania bicykla v každej objdenavke.
     \item Bezpečnosť\\
         Prístup k účtu administrátora prevádzky v administratorskom konte nesmie byť indexovaný verejne vo
@@ -128,6 +130,7 @@ Administratorske konto je určené pre majiteľa prevádzky a musí spĺňať na
 \chapter{Systémova špecifikácia}
 \section{Diagramy prípadov použitia}
 \includepdf[pages=-]{diagrams/pdf/uc.pdf}
+\input{includes/uc_table.tex}
 \section{Use case tabluľky}
 \section{Diagram tried}
 \includepdf[pages=-]{diagrams/pdf/class.pdf}

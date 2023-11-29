@@ -1,0 +1,49 @@
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|p{12cm}|}
+   \hline
+   \multicolumn{1}{|c|}{ \textbf{Rezervacia bicykla}} \\
+   \hline
+   Číslo prípadu použitia: UC1\\
+   \hline
+   Opis: preberanie bicykla zakaznikom zo stanici.\\
+   \hline
+   Akteri: Zákaznik\\
+   \hline
+   Vstupné podmienky: Zákaznik sa authorizuje na stranke.\\
+   \hline
+   Inicializacia: Aktivuje sa služba prehľadu jednotlivych tarifov.\\
+   \hline
+   Hlavný scenár:
+   \begin{enumerate} 
+       \item Webova stranka zobrazi mapu stanic.
+       \item Klient si vyberie stanicu.
+       \item Webova stranka ponukne zákaznikovi existujuce tarify.
+       \item Zákaznik si zvoli tarif. 
+       \item Zakazik zaplati tarif zadaním udajov platobnej karty.
+       \item Webova stranka vygeneruje číslo a poskytne ho zákaznikovi.
+       \item Zákaznik si číslo zada na zvolenej stanici.
+       \item Stanica uvoľni bicykel.
+   \end{enumerate}\\
+   \hline
+   Výstupné podmienky: Zákaznik preberie bicykel.\\
+   \hline
+   Alternatívný scenár 1:
+   \begin{enumerate} 
+       \item Ak klient nedisponuje dostatkom peňazi, stranka proces
+             platby zruši a nevygeneruje ziadne číslo. 
+       \item Klient si zvolí iný tarif a tok pokračuje bodom 5 hlavneho scenara.
+   \end{enumerate}\\
+   \hline
+   Alternatívný scenár 2:
+   \begin{enumerate} 
+       \item Ak na vybranej stanici nie su volne bicykle, webova stranka 
+             upozorni na to pouzivatela. 
+       \item Klient si zvoli inu stanicu a tok pokračuje bodom 3 hlavneho scenara.
+   \end{enumerate}\\
+   \hline
+  \end{tabular}
+  \caption{Preberanie zákaznikom bicykla}
+  \label{tab:use_case_steps}
+\end{table}
+
