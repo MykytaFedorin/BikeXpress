@@ -1,0 +1,44 @@
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|p{12cm}|}
+   \hline
+   \multicolumn{1}{|c|}{ \textbf{Definovanie tarifov}} \\
+   \hline
+   Číslo prípadu použitia: UC2\\
+   \hline
+   Opis: Administrator musi byt schopny zadefinovat novy tarif alebo upravit stare.\\
+   \hline
+   Akteri: Administrator BikeXpress\\
+   \hline
+   Vstupné podmienky: Administrator je prihlaseny pod učtom s príslušnými pravami.\\
+   \hline
+   Inicializacia: Administrator aktivuje službu definovania a prehľadu jednotlivych tarifov.\\
+   \hline
+   Hlavný scenár:
+   \begin{enumerate} 
+       \item Webova stranka zobrazi existujuce tarify.
+       \item Administrator si zvoli vytvorit nový tarif. 
+       \item Administrator vyplni poskytnuty systemom formular.
+       \item Stranka ulozi novu polozku do databazy.
+   \end{enumerate}\\
+   \hline
+   Výstupné podmienky: Obnovi sa zoznam alebo stav tarifov.\\
+   \hline
+   Alternatívný scenár 1:
+   \begin{enumerate} 
+       \item Ak zadane data nie su vo vhodnom tvare, stranka upozorni na to administratora.
+       \item Administrator si data upravi a tok pokracuje bodom 4 hlavneho scenara.
+   \end{enumerate}\\
+   \hline
+   Alternatívný scenár 2:
+   \begin{enumerate} 
+       \item Administrator si zvoli zmenit existujuce tarify.
+       \item Stranka zobrazi uz existujuci tarif a umozni ho upravu.
+       \item Administrator upravi prislusne tarify a system ulozi ich do databazy.
+   \end{enumerate}\\
+   \hline
+  \end{tabular}
+  \caption{Definovanie tarifov v systeme}
+  \label{tab:use_case_steps}
+\end{table}
+

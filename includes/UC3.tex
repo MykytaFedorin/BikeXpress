@@ -1,0 +1,47 @@
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|p{12cm}|}
+   \hline
+   \multicolumn{1}{|c|}{ \textbf{Nacitanie QR kodu}} \\
+   \hline
+   Číslo prípadu použitia: UC3\\
+   \hline
+   Opis: Zakaznik nacita QR kod bicykla, zaplati a dostane bicykel\\
+   \hline
+   Akteri: Zakaznik\\
+   \hline
+   Vstupné podmienky: Zakaznik je prihlaseny.\\
+   \hline
+   Inicializacia: Zakaznik aktivuje funkciu nacitavania QR kodu v aplikacii.\\
+   \hline
+   Hlavný scenár:
+   \begin{enumerate} 
+       \item Aplikacia pozaduje snimanie QR kodu.
+       \item Zakaznik QR kod nacita. 
+       \item Aplikacia ukaze zákaznikovi existujuce tarify.
+       \item Zákaznik si zvoli tarif. 
+       \item Zakazik zaplati tarif zadaním udajov platobnej karty.
+       \item Stanica uvolni bicykel
+   \end{enumerate}\\
+   \hline
+   Výstupné podmienky: Zakaznik preberie bicykel.\\
+   \hline
+   Alternatívný scenár 1:
+   \begin{enumerate} 
+       \item Ked zakaznik nacita neplatny QR kod, aplikacia upozorni ho 
+             o tom.
+       \item Zakaznik nacita spravny QR kod a tok pokracuje bodom 3 hlavneho scenara.
+   \end{enumerate}\\
+   \hline
+   Alternatívný scenár 2:
+   \begin{enumerate} 
+       \item Ak klient nedisponuje dostatkom peňazi, aplikacia proces
+             platby zruši. 
+       \item Klient si zvolí iný tarif a tok pokračuje bodom 5 hlavneho scenara.
+   \end{enumerate}\\
+   \hline
+  \end{tabular}
+  \caption{Preberanie bicykla pomocou QR kodu}
+  \label{tab:use_case_steps}
+\end{table}
+

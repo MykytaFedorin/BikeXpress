@@ -1,0 +1,195 @@
+<mxfile host="Electron" modified="2023-12-06T19:28:28.828Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="vh9YxMbO21hAMYsBD01w" version="22.1.2" type="device">
+  <diagram name="Page-1" id="2LOCOmmDzMVYqfynrGKT">
+    <mxGraphModel dx="989" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ez-ztqUpFM1S0V522DX-1" value="Rezervacia bicykla" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-1080" width="750" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-2" value="Zakaznik" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-1">
+          <mxGeometry y="23" width="370" height="1047" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-7" target="0ez-ztqUpFM1S0V522DX-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-7" value="Autorizacia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="125" y="92" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-8" target="0ez-ztqUpFM1S0V522DX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-8" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=none;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="160" y="37" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-103" target="0ez-ztqUpFM1S0V522DX-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-103" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="150" y="156" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-105" value="Zadanie prihlasovacich udajov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="107.5" y="237" width="135" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-3" value="Platba" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="130" y="617" width="95" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-20" value="Vyber tarifu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="125" y="496" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-99" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="160" y="758" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-70" value="Ziadost o platbu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="511" y="557" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-80" value="Prjjatie platby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="511" y="688" width="95" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-82" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="534" y="758" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-91" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="535" y="492" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-97" value="[ Platba zlyhala ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="650.0048275862067" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-22" value="" style="endArrow=open;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-20" target="0ez-ztqUpFM1S0V522DX-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="421" as="sourcePoint" />
+            <mxPoint x="195" y="468" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-3" target="0ez-ztqUpFM1S0V522DX-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327.5" y="709.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="177" y="709" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-80" target="0ez-ztqUpFM1S0V522DX-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-76" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-70" target="0ez-ztqUpFM1S0V522DX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="648" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-91" target="0ez-ztqUpFM1S0V522DX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-82" target="0ez-ztqUpFM1S0V522DX-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="783" />
+              <mxPoint x="660" y="517" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-82" target="0ez-ztqUpFM1S0V522DX-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564" y="-227" as="sourcePoint" />
+            <mxPoint x="215" y="-162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-101" value="[ Platba prebehla uspesne ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0ez-ztqUpFM1S0V522DX-100">
+          <mxGeometry x="-0.3424" y="3" relative="1" as="geometry">
+            <mxPoint x="46" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-84" value="Preberanie bycikla" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="137.5" y="847" width="95" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-86" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-99" target="0ez-ztqUpFM1S0V522DX-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-2">
+          <mxGeometry x="170" y="937" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-2" source="0ez-ztqUpFM1S0V522DX-84" target="0ez-ztqUpFM1S0V522DX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-24" value="Webova stranka" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-1">
+          <mxGeometry x="370" y="23" width="380" height="1047" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-58" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-24" source="0ez-ztqUpFM1S0V522DX-46" target="0ez-ztqUpFM1S0V522DX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-46" value="Overovanie udajov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="140" y="231.5" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-24" source="0ez-ztqUpFM1S0V522DX-10" target="0ez-ztqUpFM1S0V522DX-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="180" />
+              <mxPoint x="300" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="165" y="155" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-16" value="[ zakaznik sa autorizoval ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="300" y="166.9958620689656" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-13" value="Zobrazenie stanic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="140" y="318" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-66" value="Zobrazenie tarifov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="140" y="405" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-17" value="Vyber stanice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="-245" y="317" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-24" source="0ez-ztqUpFM1S0V522DX-13" target="0ez-ztqUpFM1S0V522DX-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="328" as="sourcePoint" />
+            <mxPoint x="10" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-21" value="" style="endArrow=open;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-24" source="0ez-ztqUpFM1S0V522DX-17" target="0ez-ztqUpFM1S0V522DX-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-195" y="387" as="sourcePoint" />
+            <mxPoint x="-145.69" y="522" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-195" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-43" value="Prihlasovacie udaje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0ez-ztqUpFM1S0V522DX-24">
+          <mxGeometry x="-39" y="228" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-73" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-24" source="0ez-ztqUpFM1S0V522DX-43" target="0ez-ztqUpFM1S0V522DX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-1" source="0ez-ztqUpFM1S0V522DX-66" target="0ez-ztqUpFM1S0V522DX-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.9999999999998" y="485.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-74" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-1" source="0ez-ztqUpFM1S0V522DX-105" target="0ez-ztqUpFM1S0V522DX-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="140" as="sourcePoint" />
+            <mxPoint x="330" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-14" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="0ez-ztqUpFM1S0V522DX-1" source="0ez-ztqUpFM1S0V522DX-10" target="0ez-ztqUpFM1S0V522DX-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ez-ztqUpFM1S0V522DX-88" value="[ Zakaznik sa neautorizoval ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0ez-ztqUpFM1S0V522DX-14">
+          <mxGeometry x="-0.2569" y="-1" relative="1" as="geometry">
+            <mxPoint x="45" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
