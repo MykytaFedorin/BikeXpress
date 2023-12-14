@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2023-12-07T13:58:45.359Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="9oLB3sOWjKpPIaBXDNwR" version="22.1.2" type="device">
+  <diagram name="Page-1" id="TL3CFMvod7ZOjV_iZ8Q9">
+    <mxGraphModel dx="1434" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-1" value="Definovanie Tarifov" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="800" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-2" value="Administrator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-1">
+          <mxGeometry y="23" width="390" height="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-2" source="ZGf9SS18nJ4B9F9XSmS5-4" target="ZGf9SS18nJ4B9F9XSmS5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=none;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-2">
+          <mxGeometry x="170" y="37" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-5" value="Aktivacia sluzby defniovania tarifov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-2">
+          <mxGeometry x="125" y="107" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-10" value="Poskytnutie udajov tarifu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-2">
+          <mxGeometry x="120" y="217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-3" value="Administratorske konto" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-1">
+          <mxGeometry x="390" y="23" width="410" height="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.558;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-3" source="ZGf9SS18nJ4B9F9XSmS5-8" target="ZGf9SS18nJ4B9F9XSmS5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-8" value="Pozadovanie udajov tarifu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="98" y="107" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-12" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="141" y="220.5" width="50" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-3" source="ZGf9SS18nJ4B9F9XSmS5-14" target="ZGf9SS18nJ4B9F9XSmS5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-14" value="Overovanie udajov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="117" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-3" source="ZGf9SS18nJ4B9F9XSmS5-18" target="ZGf9SS18nJ4B9F9XSmS5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-3" source="ZGf9SS18nJ4B9F9XSmS5-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="153" y="437" width="50" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-21" value="[ Udaje nie su vo spravnom&lt;br&gt;&amp;nbsp;formate ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="294" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-22" value="Uchovanie udajov" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="118" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-24" value="[ Udaje su vo spravnom&lt;br&gt;&amp;nbsp;formate ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="112" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-3" source="ZGf9SS18nJ4B9F9XSmS5-25" target="ZGf9SS18nJ4B9F9XSmS5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-25" value="Upozornenie na nespravny format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZGf9SS18nJ4B9F9XSmS5-3">
+          <mxGeometry x="280" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-1" source="ZGf9SS18nJ4B9F9XSmS5-5" target="ZGf9SS18nJ4B9F9XSmS5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-11" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-1" source="ZGf9SS18nJ4B9F9XSmS5-12" target="ZGf9SS18nJ4B9F9XSmS5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGf9SS18nJ4B9F9XSmS5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=open;endFill=0;" edge="1" parent="ZGf9SS18nJ4B9F9XSmS5-1" source="ZGf9SS18nJ4B9F9XSmS5-10" target="ZGf9SS18nJ4B9F9XSmS5-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

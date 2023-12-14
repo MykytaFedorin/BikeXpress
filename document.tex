@@ -3,8 +3,11 @@
 \usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 \usepackage[slovak]{babel}
 \usepackage{pdfpages}
+\usepackage{array}
+\usepackage{tabularx}
 \linespread{1.0} 
 \renewcommand{\arraystretch}{1.5}
+\newcommand{\mytablewidth}{\textwidth}
 \author{Mykyta Fedorin}
 \title{BikeXpress}
 \date{}
@@ -119,8 +122,10 @@ Administratorske konto je určené pre majiteľa prevádzky a musí spĺňať na
 
     \item Zobrazenie historie platieb\\
         Ide o zoznam platieb z informaciami o učte z ktoreho prešla platba, datume a vyške poplatku.
+
     \item Zobrazenie štatistiky použivania bicyklov\\
         To sú informácie o počte prejdenych kilometrov a dĺžke používania bicykla v každej objdenavke.
+
     \item Bezpečnosť\\
         Prístup k účtu administrátora prevádzky v administratorskom konte nesmie byť indexovaný verejne vo
         vyhľadávacích službách. Webová stránka musí používať šifrovaný protokol HTTPS a POST na odosielanie osobných 
@@ -150,5 +155,18 @@ Administratorske konto je určené pre majiteľa prevádzky a musí spĺňať na
 \includepdf[pages=-]{diagrams/pdf/activity.pdf}
 \clearpage 
 
+\includepdf[pages=-]{diagrams/pdf/activity2.pdf}
+\clearpage 
+
+\includepdf[pages=-]{diagrams/pdf/sequence.pdf}
+\clearpage 
+
+\includepdf[pages=-]{diagrams/pdf/sequence1.pdf}
+
+\chapter{Akceptačné testy}
+\input{includes/akc1.tex}
+\input{includes/akc2.tex}
+\input{includes/akc3.tex}
+\input{includes/akc4.tex}
 \end{document}
 

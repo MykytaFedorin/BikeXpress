@@ -1,0 +1,72 @@
+\begin{table}[h]
+  \centering
+  \begin{tabularx}{\mytablewidth}{|c|c|c|X|} 
+      \hline 
+      \textbf{ID} & 4 & \textbf{Názov} & Nacitanie QR-kodu
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|c|c|X|} 
+      \hline 
+      \textbf{Prípad pouzitia} & UC3 & \textbf{Úroveň splnenia testu} & Musi
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Rozhranie} & Pouzivatel
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Ucel} & Overenie spravnej funkcnosti nacitania QR kodu
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Vstupne podmienky} & Pouzivatel je prihlaseny a 
+                                   a aktivoval sluzbu nacitania QR kodu
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Vystupne podmienky} & Pozivatel dostal bycikel a zaplatil za neho
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      \textbf{Krok} & \textbf{Akcia} & \textbf{Ocakavana reakcia} & \textbf{Skutocna reakcia}
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      1 & 
+      Pouzovatel zvolil nacitat QR kod & 
+      Do 1 sekundy sa otvorila stranka s obrazovkou s kamery a je pripravena na nacitanie kodu & 
+      Otvorila sa aplikacia kamery za 2 sekundy
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      2 & 
+      Pouzivatel nacital QR-kod& 
+      Do 3 sekund sa otvoril zoznam tarifov& 
+      Zoznam tarifov sa neotvoril
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      3 & 
+      Pouzivatel zvolil tarif& 
+      Zobrazil sa formular na zadanie udajov karty so sumou podla zvoleneho tarifu& 
+      Zobrazil sa formular na zadanie udajov karty podla tarifu s vyssou sumou
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      4 & 
+      Pouzivatel si vyplnil formular a zvolil platbu& 
+      Bycikel s  nacitanym QR kodom sa odblokoval & 
+      Odblokoval sa iny bycikel
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|X|} 
+      \hline
+  \end{tabularx}
+\end{table}
+
+

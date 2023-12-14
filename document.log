@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.5)  6 DEC 2023 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.5)  14 DEC 2023 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,16 +187,36 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count271
 \AM@templatesizebox=\box52
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen159
+\ar@mcellbox=\box53
+\extrarowheight=\dimen160
+\NC@list=\toks22
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box54
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen161
+\TX@old@table=\dimen162
+\TX@old@col=\dimen163
+\TX@target=\dimen164
+\TX@delta=\dimen165
+\TX@cols=\count272
+\TX@ftn=\toks23
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-2.
+5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box55
 )
 (./document.aux
 
@@ -208,21 +228,21 @@ LaTeX Warning: Label `tab:use_case_steps' multiply defined.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-\big@size=\dimen159
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\big@size=\dimen166
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -260,17 +280,17 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen160
-\scratchbox=\box54
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen161
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count274
+\scratchdimen=\dimen167
+\scratchbox=\box56
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen168
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -293,35 +313,35 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 14.
+ 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 14.
+ 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 14.
+ 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 14.
+ 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -330,7 +350,7 @@ Kapitola 1.
 [1
 
 ] [2]
-Overfull \hbox (3.32031pt too wide) in paragraph at lines 124--128
+Overfull \hbox (3.32031pt too wide) in paragraph at lines 129--133
 \OT1/ptm/m/n/12 ve-rejne vo vyhl[]ad[]avac[]^^Pch slu[]zb[]ach. We-bov[]a str[]
 anka mus[]^^P pou[]z[]^^Pvat[] []sifrovan[]y pro-to-kol HTTPS
  []
@@ -344,7 +364,7 @@ pdfTeX warning: pdflatex (file ./diagrams/pdf/uc.pdf): PDF inclusion: found PDF
 <diagrams/pdf/uc.pdf, id=17, 614.295pt x 795.93356pt>
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf>
-Package pdftex.def Info: diagrams/pdf/uc.pdf  used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf  used on input line 137.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 
 
@@ -352,7 +372,7 @@ pdfTeX warning: pdflatex (file ./diagrams/pdf/uc.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf>
-Package pdftex.def Info: diagrams/pdf/uc.pdf  used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf  used on input line 137.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 
 
@@ -365,26 +385,26 @@ pdfTeX warning: pdflatex (file ./diagrams/pdf/uc.pdf): PDF inclusion: found PDF
 <diagrams/pdf/uc.pdf, id=20, page=1, 614.295pt x 795.93356pt>
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 137.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 137.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 [4
 
 ]
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 137.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 137.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 File: diagrams/pdf/uc.pdf Graphic file (type pdf)
 <use diagrams/pdf/uc.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 132.
+Package pdftex.def Info: diagrams/pdf/uc.pdf , page1 used on input line 137.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
  [5 <./diagrams/pdf/uc.pdf>] (./includes/UC1.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -401,8 +421,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [7] (./includes/UC2.tex
 Underfull \hbox (badness 4492) in paragraph at lines 13--14
-[]\OT1/ptm/m/n/12 Vstupn[]e pod-mienky: Ad-mi-ni-stra-tor je pri-hla-seny pod u
-[]ctom s
+[]|\OT1/ptm/m/n/12 Vstupn[]e pod-mienky: Ad-mi-ni-stra-tor je pri-hla-seny pod 
+u[]ctom s
  []
 
 
@@ -419,7 +439,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 <diagrams/pdf/class.pdf, id=49, 597.19106pt x 846.0408pt>
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf>
-Package pdftex.def Info: diagrams/pdf/class.pdf  used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf  used on input line 151.
 (pdftex.def)             Requested size: 597.1896pt x 846.03874pt.
 
 
@@ -427,7 +447,7 @@ pdfTeX warning: pdflatex (file ./diagrams/pdf/class.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf>
-Package pdftex.def Info: diagrams/pdf/class.pdf  used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf  used on input line 151.
 (pdftex.def)             Requested size: 597.1896pt x 846.03874pt.
 
 
@@ -440,12 +460,12 @@ PDF version <1.7>, but at most version <1.5> allowed
 <diagrams/pdf/class.pdf, id=52, page=1, 597.19106pt x 846.0408pt>
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.1896pt x 846.03874pt.
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 151.
 
 (pdftex.def)             Requested size: 561.15921pt x 794.99446pt.
 [10
@@ -455,17 +475,17 @@ Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
 ]
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 151.
 
 (pdftex.def)             Requested size: 561.15921pt x 794.99446pt.
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 151.
 
 (pdftex.def)             Requested size: 561.15921pt x 794.99446pt.
 File: diagrams/pdf/class.pdf Graphic file (type pdf)
 <use diagrams/pdf/class.pdf, page 1>
-Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 146.
+Package pdftex.def Info: diagrams/pdf/class.pdf , page1 used on input line 151.
 
 (pdftex.def)             Requested size: 561.15921pt x 794.99446pt.
  [11 <./diagrams/pdf/class.pdf>]
@@ -475,7 +495,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 <diagrams/pdf/activity.pdf, id=72, 614.295pt x 795.93356pt>
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf>
-Package pdftex.def Info: diagrams/pdf/activity.pdf  used on input line 150.
+Package pdftex.def Info: diagrams/pdf/activity.pdf  used on input line 155.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 
 
@@ -483,7 +503,7 @@ pdfTeX warning: pdflatex (file ./diagrams/pdf/activity.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf>
-Package pdftex.def Info: diagrams/pdf/activity.pdf  used on input line 150.
+Package pdftex.def Info: diagrams/pdf/activity.pdf  used on input line 155.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 
 
@@ -497,12 +517,12 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf, page 1>
 Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
-50.
+55.
 (pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf, page 1>
 Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
-50.
+55.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 [12
 
@@ -510,19 +530,326 @@ Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf, page 1>
 Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
-50.
+55.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf, page 1>
 Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
-50.
+55.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
 File: diagrams/pdf/activity.pdf Graphic file (type pdf)
 <use diagrams/pdf/activity.pdf, page 1>
 Package pdftex.def Info: diagrams/pdf/activity.pdf , page1 used on input line 1
-50.
+55.
 (pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
- [13 <./diagrams/pdf/activity.pdf>] (./document.aux)
+ [13 <./diagrams/pdf/activity.pdf>]
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/activity2.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/activity2.pdf, id=97, 614.295pt x 795.93356pt>
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/activity2.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/activity2.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/activity2.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/activity2.pdf, id=100, page=1, 614.295pt x 795.93356pt>
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf , page1 used on input line 
+158.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf , page1 used on input line 
+158.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf , page1 used on input line 
+158.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf , page1 used on input line 
+158.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/activity2.pdf Graphic file (type pdf)
+<use diagrams/pdf/activity2.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/activity2.pdf , page1 used on input line 
+158.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+[14
+
+ <./diagrams/pdf/activity2.pdf>]
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/sequence.pdf, id=118, 614.295pt x 795.93356pt>
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf  used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf  used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/sequence.pdf, id=121, page=1, 614.295pt x 795.93356pt>
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf , page1 used on input line 1
+61.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf , page1 used on input line 1
+61.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf , page1 used on input line 1
+61.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf , page1 used on input line 1
+61.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence.pdf , page1 used on input line 1
+61.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+[15
+
+ <./diagrams/pdf/sequence.pdf>]
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence1.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/sequence1.pdf, id=135, 614.295pt x 795.93356pt>
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf  used on input line 164.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence1.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf  used on input line 164.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence1.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./diagrams/pdf/sequence1.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<diagrams/pdf/sequence1.pdf, id=138, page=1, 614.295pt x 795.93356pt>
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf , page1 used on input line 
+164.
+(pdftex.def)             Requested size: 614.29349pt x 795.93163pt.
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf , page1 used on input line 
+164.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf , page1 used on input line 
+164.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf , page1 used on input line 
+164.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+File: diagrams/pdf/sequence1.pdf Graphic file (type pdf)
+<use diagrams/pdf/sequence1.pdf, page 1>
+Package pdftex.def Info: diagrams/pdf/sequence1.pdf , page1 used on input line 
+164.
+(pdftex.def)             Requested size: 614.26537pt x 795.89519pt.
+[16
+
+ <./diagrams/pdf/sequence1.pdf>]
+Kapitola 3.
+(./includes/akc1.tex
+Overfull \hbox (3.1198pt too wide) in paragraph at lines 37--37
+[]|\OT1/ptm/b/n/12 Krok| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/12 Zobrazi sa in-te-rak-tivna
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 59--59
+[]|\OT1/ptm/m/n/12 Informacie sa zo-bra-zuju,
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 62--62
+[]
+ []
+
+) (./includes/akc2.tex
+Overfull \hbox (3.1198pt too wide) in paragraph at lines 36--36
+[]|\OT1/ptm/b/n/12 Krok| 
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 44--44
+[]|\OT1/ptm/m/n/12 Stranka vy-pi-sala zo-znam
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 51--51
+[]|\OT1/ptm/m/n/12 Zobrazil sa for-mu-lar na
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 51--51
+\OT1/ptm/m/n/12 za-da-nie uda-jov pla-tob-nej
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 51--51
+[]|\OT1/ptm/m/n/12 Zobrazil sa for-mu-lar na
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 51--51
+\OT1/ptm/m/n/12 za-da-nie uda-jov pla-tob-nej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/ptm/m/n/12 Pouzivatel za-dal udaje
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 58--58
+[]|\OT1/ptm/m/n/12 Stranka uspesne spra-cuje
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 61--61
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./includes/akc3.tex
+Overfull \hbox (3.1198pt too wide) in paragraph at lines 37--37
+[]|\OT1/ptm/b/n/12 Krok| 
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/12 Pouzivatel zvo-lil vy-pi-sat
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/12 Stranka vy-pi-sala zo-znam
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 45--45
+\OT1/ptm/m/n/12 ta-ri-fov s moz-nos-tou pri-
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 45--45
+\OT1/ptm/m/n/12 da-nia, ale bez moz-nosti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/ptm/m/n/12 Pouzivatel zvo-lil pri-dat
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 59--59
+[]|\OT1/ptm/m/n/12 Zobrazil sa for-mu-lar no-
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 59--59
+[]|\OT1/ptm/m/n/12 Zobrazil sa for-mu-lar no-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 62--62
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./includes/akc4.tex
+Overfull \hbox (3.1198pt too wide) in paragraph at lines 37--37
+[]|\OT1/ptm/b/n/12 Krok| 
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/12 Pouzovatel zvo-lil na-ci-tat
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/12 Otvorila sa ap-li-ka-cia ka-
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 66--66
+[]|\OT1/ptm/m/n/12 Bycikel s na-ci-ta-nym QR
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 69--69
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17
+
+] [18] [19] (./document.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
@@ -533,19 +860,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4686 strings out of 475188
- 77011 string characters out of 5763808
- 1930254 words of memory out of 5000000
- 25918 multiletter control sequences out of 15000+600000
+ 4872 strings out of 475188
+ 80749 string characters out of 5763808
+ 1942254 words of memory out of 5000000
+ 26087 multiletter control sequences out of 15000+600000
  585862 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,17n,79p,241b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,17n,79p,243b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on document.pdf (14 pages, 115128 bytes).
+Output written on document.pdf (20 pages, 177034 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 174 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

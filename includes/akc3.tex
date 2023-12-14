@@ -1,0 +1,65 @@
+\begin{table}[h]
+  \centering
+  \begin{tabularx}{\mytablewidth}{|c|c|c|X|} 
+      \hline 
+      \textbf{ID} & 3 & \textbf{Názov} & Definovanie tarifov
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|c|c|X|} 
+      \hline 
+      \textbf{Prípad pouzitia} & UC2 & \textbf{Úroveň splnenia testu} & Musi
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Rozhranie} & Administrator
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Ucel} & Overenie spravnej funkcnosti definovania tarifov
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Vstupne podmienky} & Pouzivatel je prihlaseny pod administratorskym kontom a 
+                                   a aktivoval sluzbu definovania tarifov
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|c|X|} 
+      \hline 
+      \textbf{Vystupne podmienky} & V databaze je ulozeny aktualizovany zoznam tarifov
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      \textbf{Krok} & \textbf{Akcia} & \textbf{Ocakavana reakcia} & \textbf{Skutocna reakcia}
+  \end{tabularx}
+
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      1 & 
+      Pouzivatel zvolil vypisat zoznam tarifov & 
+      Stranka vypise zoznam tarifov s moznostou upravy a pridania novej polozky & 
+      Stranka vypisala zoznam tarifov s moznostou pridania, ale bez moznosti upravy
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      2 & 
+      Pouzivatel si zvolil tarif a chce ho upravit & 
+      Zobrazil sa formular na zadanie udajov tarifu& 
+      Stranka nereaguje
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|p{2em}|X|X|X|} 
+      \hline 
+      3 & 
+      Pouzivatel zvolil pridat novy tarif& 
+      Zobrazil sa formular noveho tarifu & 
+      Zobrazil sa formular noveho tarifu
+  \end{tabularx}
+  \begin{tabularx}{\mytablewidth}{|X|} 
+      \hline
+  \end{tabularx}
+\end{table}
+
+
